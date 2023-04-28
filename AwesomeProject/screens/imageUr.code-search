@@ -1,0 +1,16 @@
+# Query: imageUr
+# ContextLines: 1
+
+3 results - 2 files
+
+components/post.jsx:
+  34  
+  35: export const Post = ({ title, image, createdAt}) => {
+  36      return (<PostView>
+  37:     <PostImage source={{ uri: image }} />
+  38      <PostDetails>
+
+screens/FullPost.jsx:
+  47         <View style={{ padding: 20 }}>
+  48:         <PostImage source={{ uri: data.image }}/>
+  49          <PostText>{data.Text} </PostText>
